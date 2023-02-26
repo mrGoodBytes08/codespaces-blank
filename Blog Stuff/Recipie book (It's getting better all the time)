@@ -33,6 +33,21 @@
             #yellow {
                 color: black;
             }
+            .ingredients {
+                text-decoration: underline;
+                text-align: center;
+
+            }
+            #ingredient_frosting {
+                font-size: 16px;
+            }
+            .ingredients_list_heading {
+                font-size: 1.3em;
+                font-family: serif;
+            }
+            td {
+                font-family: serif;
+            }
         </style>
     </head>
     <body>
@@ -56,13 +71,13 @@
         </ul>
         
         <table>
-            <thead>
+            <thead class="ingredients_list_heading">
                 <tr>
                     <th>Ingredients</th>
                     <th>Quantity</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="ingredients">
                 <tr>
                     <td>Pie crust</td>
                     <td>1</td>
@@ -110,13 +125,13 @@
         </ul>
         
         <table>
-            <thead>
+            <thead class="ingredients_list_heading">
                 <tr>
                     <th>Ingredients</th>
                     <th>Quantity</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="ingredients">
                 <tr>
                     <td id="tan">Blanched almond flour</td>
                     <td>2 1/2 cups</td>
@@ -165,13 +180,13 @@
         </ul>
         
         <table>
-            <thead>
+            <thead class="ingredients_list_heading">
                 <tr>
                     <th>Ingredients</th>
                     <th>Quantity</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="ingredients">
                 <tr>
                     <td>All-purpose flour</td>
                     <td>1-3/4 cups</td>
@@ -222,64 +237,107 @@
     <h2 id="recipe_4">GF Maple Pecan Cake</h2>
         
         <ul>
-            <li>Time: 1 1/2 Hours</li>
-            <li>Makes: 1 loaf, 16 pieces</li>
+            <li>Time: 45 Minutes</li>
+            <li>Makes: 12 squares</li>
         </ul>
         
         <table>
-            <thead>
+            <thead class="ingredients_list_heading">
                 <tr>
                     <th>Ingredients</th>
                     <th>Quantity</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="ingredients">
                 <tr>
-                    <td id="tan">All-purpose flour</td>
-                    <td>1-3/4 cups</td>
+                    <td>Melted butter</td>
+                    <td>1/3 cup</td>
                 </tr>
                 <tr>
-                    <td>Sugar</td>
-                    <td>1-1/2 cups</td>
-                </tr>
-                <tr>
-                    <td id="brown">Baking soda</td>
-                    <td>1 teaspoon</td>
-                </tr>
-                <tr>
-                    <td>Salt</td>
-                    <td>1/2 teaspoon</td>
-                </tr>
-                <tr>
-                    <td id="yellow">Large eggs</td>
+                    <td>Eggs</td>
                     <td>2</td>
+                </tr>
+                <tr>
+                    <td>Maple Syrup</td>
+                    <td>1/3 cup</td>
+                </tr>
+                <tr>
+                    <td>Brown cane sugar</td>
+                    <td>1/4 cup</td>
+                </tr>
+                <tr>
+                    <td>Greek yogurt</td>
+                    <td>1/4 cup</td>
                 </tr>
                 <tr>
                     <td id="yellow">Medium ripe bananas, mashed</td>
                     <td>2</td>
                 </tr>
                 <tr>
-                    <td>Canola oil</td>
-                    <td>1/2 cup</td>
-                </tr>
-                <tr>
-                    <td id="yellow">Buttermilk</td>
-                    <td>1/4 cup plus 1 tablespoon</td>
-                </tr>
-                <tr>
-                    <td id="brown">Vanilla extract</td>
+                    <td>Vanilla extract</td>
                     <td>1 teaspoon</td>
                 </tr>
                 <tr>
-                    <td id="brown">Chopped walnuts</td>
-                    <td>1 cup</td>
+                    <td>Almond flour</td>
+                    <td>1 1/3 cups</td>
+                </tr>
+                <tr>
+                    <td>Oat flour</td>
+                    <td>1/3 cup plus 3 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>Old-fashioned rolled oats</td>
+                    <td>1/3 cup</td>
+                </tr>
+                <tr>
+                    <td>Sea salt</td>
+                    <td>3/4 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Baking soda</td>
+                    <td>1 teaspoon</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="ingredient_frosting">For the frosting:</p>
+        <table>
+            <thead class="ingredients_list_heading">
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody class="ingredients">
+                <tr>
+                    <td>Plain greek yogurt</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Maple Syrup</td>
+                    <td>2 tablespoons</td>
+                </tr>
+                <tr>
+                    <td>Brown cane sugar</td>
+                    <td>1/2 teaspoon</td>
+                </tr>
+                <tr>
+                    <td>Vanilla extract</td>
+                    <td>Small splash</td>
+                </tr>
+                <tr>
+                    <td>Cinnamon</td>
+                    <td>For garnish</td>
                 </tr>
             </tbody>
         </table>
         
-        <p><strong>Step 1:</strong> Preheat oven to 350°. In a large bowl, stir together flour, sugar, baking soda and salt. In another bowl, combine the eggs, bananas, oil, buttermilk and vanilla; add to flour mixture, stirring just until combined. Fold in nuts.</p>
-        <p><strong>Step 2:</strong> Pour into a greased or parchment-lined 9x5-in. loaf pan. If desired, sprinkle with additional walnuts. Bake until a toothpick comes out clean, 1-1/4 to 1-1/2 hours. Cool in pan for 15 minutes before removing to a wire rack.</p>
+        <p><strong>Step 1:</strong> Preheat oven to 350°F and line an 8x8in square baking dish with parchment paper.</p>
+        <p><strong>Step 2:</strong> In a large bowl, whisk the butter, eggs, maple syrup, coconut sugar, yogurt, and vanilla until smooth.</p>
+        <p><strong>Step 3:</strong> Mix in the remaining dry ingredients, and stir until a smooth batter forms.</p>
+        <p><strong>Step 4:</strong> Pour the batter into 88 baking dish and use a spatula to spread it evenly.</p>
+        <p><strong>Step 5:</strong> Bake for 25 minutes. Allow to cool for 5 minutes, then transfer to a cooling rack to cool completely before slicing. Don’t skip this cooling process, or your cake will not hold together well.</p>
+        <p><strong>Step 6:</strong> While cake is cooling, whisk the frosting ingredients together in a small bowl until smooth. Once cake is cooled, spread frosting on top and sprinkle with cinnamon and coconut sugar (optional). Slice into 12 squares. Store leftovers in the refrigerator. </p>
         
-    <p><em>Source: <a href="https://www.tasteofhome.com/recipes/best-ever-banana-bread/">https://www.tasteofhome.com/recipes/best-ever-banana-bread/</a></em></p>
+    <p><em>Source: <a href="https://gatherednutrition.com/gluten-free-maple-cake-with-cream-cheese-frosting/#tasty-recipes-6003-jump-target">https://gatherednutrition.com/gluten-free-maple-cake-with-cream-cheese-frosting/#tasty-recipes-6003-jump-target</a></em></p>
     </body>
 </html>    
